@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.login.SettingsFragment">
-i
+
+    <!-- TODO: Update blank fragment layout -->
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,6 +16,9 @@ i
         <TextView
             android:id="@+id/textView16"
             android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="15dp"
             android:layout_height="62dp"
             android:text="mTek Services" />
 
@@ -96,6 +100,9 @@ i
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="10dp"
+                android:textSize="15dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
                 android:paddingBottom="10dp"
                 android:text="Emergency help" />
 
@@ -133,6 +140,9 @@ i
                     android:layout_height="wrap_content"
                     android:paddingTop="10dp"
                     android:paddingBottom="10dp"
+                    android:textSize="15dp"
+                    android:background="#000000"
+                    android:textColor="#ffffff"
                     android:text="Support Services" />
 
                 <LinearLayout
@@ -170,12 +180,15 @@ i
                     android:id="@+id/textView25"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:background="#000000"
+                    android:textColor="#ffffff"
 
                     android:text="Settings" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="155dp"
+                    android:layout_height="159dp"
                     android:layout_weight="1"
                     android:orientation="horizontal" />
             </LinearLayout>
