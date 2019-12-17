@@ -10,17 +10,17 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="424dp"
+        android:layout_height="614dp"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/textView16"
             android:layout_width="match_parent"
+            android:layout_height="62dp"
             android:layout_gravity="center"
             android:gravity="center"
-            android:textSize="15dp"
-            android:layout_height="62dp"
-            android:text="mTek Services" />
+            android:text="mTek Services"
+            android:textSize="15dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -41,8 +41,8 @@
                 <TextView
                     android:id="@+id/textView17"
                     android:layout_width="match_parent"
-                    android:gravity="center"
                     android:layout_height="40dp"
+                    android:gravity="center"
                     android:text="Send us an email" />
 
             </LinearLayout>
@@ -82,9 +82,8 @@
                     android:id="@+id/textView18"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
-                    android:text="Let us call you back"
                     android:gravity="center"
-                    />
+                    android:text="Let us call you back" />
 
             </LinearLayout>
 
@@ -92,19 +91,19 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="546dp"
             android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView21"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingTop="10dp"
-                android:textSize="15dp"
                 android:background="#000000"
-                android:textColor="#ffffff"
+                android:paddingTop="10dp"
                 android:paddingBottom="10dp"
-                android:text="Emergency help" />
+                android:text="Emergency help"
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -124,8 +123,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
                     android:layout_gravity="center"
-                    android:gravity="center"
                     android:layout_weight="1"
+                    android:gravity="center"
                     android:text="Call Emergency Services now" />
             </LinearLayout>
 
@@ -138,12 +137,12 @@
                     android:id="@+id/textView23"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="#000000"
                     android:paddingTop="10dp"
                     android:paddingBottom="10dp"
-                    android:textSize="15dp"
-                    android:background="#000000"
+                    android:text="Support Services"
                     android:textColor="#ffffff"
-                    android:text="Support Services" />
+                    android:textSize="15dp" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -154,8 +153,8 @@
                         android:id="@+id/imageView25"
                         android:layout_width="20dp"
                         android:layout_height="40dp"
-                        android:layout_weight="1"
                         android:layout_gravity="center"
+                        android:layout_weight="1"
                         android:src="@drawable/mtek_logo" />
 
                     <TextView
@@ -180,25 +179,51 @@
                     android:id="@+id/textView25"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="15dp"
                     android:background="#000000"
+                    android:text="Settings"
                     android:textColor="#ffffff"
 
-                    android:text="Settings" />
+                    android:textSize="15dp" />
 
-                <LinearLayout
+                <TextView
+                    android:id="@+id/textView32"
                     android:layout_width="match_parent"
-                    android:layout_height="159dp"
-                    android:layout_weight="1"
-                    android:orientation="horizontal" />
+                    android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="Help" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="match_parent"
+                    android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="About" />
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="match_parent"
+                    android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="Privacy Policy" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="match_parent"
+                    android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="Terms and Conditions" />
+
             </LinearLayout>
         </LinearLayout>
 
     </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="641dp"
-        android:orientation="horizontal" />
 
 </FrameLayout>
