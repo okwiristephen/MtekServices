@@ -23,7 +23,7 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         ActionBar actionBar = getSupportActionBar();
-        
+        actionBar.hide();
 
         BottomNavigationView navigationView = findViewById(R.id.btm_nav);
         navigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {

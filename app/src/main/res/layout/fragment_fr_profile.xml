@@ -20,9 +20,10 @@
                 android:id="@+id/textView10"
                 android:layout_width="wrap_content"
                 android:background="@color/colorPrimary"
+                android:gravity="center"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="TextView" />
+                android:text="Profile" />
         </LinearLayout>
 
         <LinearLayout
@@ -45,7 +46,7 @@
                     android:id="@+id/textView2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Stephen Okwiri"
+                    android:text="Stephen Okwiri "
                     android:textColor="@color/colorPrimaryDark" />
 
                 <LinearLayout
@@ -86,7 +87,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="okwiristev@gmail.com"
+                        android:text="okwiristeve@gmail.com"
                         android:textColor="@color/colorPrimaryDark" />
                 </LinearLayout>
 
@@ -168,6 +169,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Add Vehicle" />
+
+
         </LinearLayout>
 
         <TextView

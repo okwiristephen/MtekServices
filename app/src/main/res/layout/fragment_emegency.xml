@@ -27,6 +27,7 @@
                 android:id="@+id/imageView9"
                 android:layout_width="110dp"
                 android:layout_height="70dp"
+                android:layout_gravity="center"
                 android:backgroundTint="@color/colorPrimaryDark"
                 android:src="@drawable/veh_ic" />
 
@@ -35,6 +36,7 @@
                 android:layout_width="93dp"
                 android:layout_height="70dp"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:text="Insurance Services"
                 android:textColorHighlight="@color/colorPrimary" />
 
@@ -44,7 +46,6 @@
                 android:layout_height="70dp"
                 android:layout_weight="1"
                 android:clickable="true"
-                android:cropToPadding="true"
                 android:outlineAmbientShadowColor="@color/design_default_color_primary_dark"
                 android:src="@drawable/icon_settings" />
 
@@ -59,8 +60,9 @@
                 android:id="@+id/imageView12"
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
-                android:backgroundTint="@color/colorPrimaryDark"
+                android:layout_gravity="center"
                 android:layout_weight="1"
+                android:backgroundTint="@color/colorPrimaryDark"
                 android:src="@drawable/claim_settings" />
 
             <TextView
@@ -68,6 +70,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:text="Claim Services" />
 
             <ImageView
@@ -88,8 +91,9 @@
                 android:id="@+id/imageView14"
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
-                android:backgroundTint="@color/colorPrimaryDark"
+                android:layout_gravity="center"
                 android:layout_weight="1"
+                android:backgroundTint="@color/colorPrimaryDark"
                 android:src="@drawable/road_settings" />
 
             <TextView
@@ -97,15 +101,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:text="Road Services" />
 
             <ImageView
                 android:id="@+id/imageView15"
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
+                android:layout_gravity="center"
                 android:layout_weight="1"
                 android:clickable="true"
-                android:cropToPadding="true"
                 android:src="@drawable/icon_settings" />
         </LinearLayout>
 
@@ -126,6 +131,7 @@
                 android:layout_width="99dp"
                 android:layout_height="70dp"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:text="FAQs" />
 
             <ImageView
@@ -134,7 +140,6 @@
                 android:layout_height="70dp"
                 android:layout_weight="1"
                 android:clickable="true"
-                android:cropToPadding="true"
                 android:src="@drawable/icon_settings" />
         </LinearLayout>
 
